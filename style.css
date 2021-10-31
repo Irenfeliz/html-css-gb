@@ -1,3 +1,8 @@
+/** {
+    margin: 0;
+    padding: 0;
+}*/
+
 body {
     font-family: sans-serif;
 }
@@ -8,7 +13,7 @@ body {
     color: #1F3F68;
 }
 
-.heading-1 {
+.top-heading {
     font-size: 64px;
     color: #1F3F68;
 }
@@ -19,9 +24,20 @@ body {
     text-align: center;
 }
 
-.heading-3 {
+.heading {
     font-size: 36px;
     text-align: center;
+}
+
+.footer-heading {
+    font-size: 36px;
+    text-align: center;
+}
+
+.block-heading {
+    font-size: 20px;
+    line-height: 30px;
+    color: #1F3F68;
 }
 
 .heading-4 {
