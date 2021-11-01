@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="top-contactUs">
+    <div class="container">
       <!-- Header -->
       <nav class="header">
         <ul>
@@ -17,74 +17,80 @@
         </ul>
       </nav>
       <!-- End of header -->
-      <h2 class="heading-2">Contact Us</h2>
-      <p class="text">Lorem ipsum</p>
-    </div>
-    <!-- Part with contacts info and form -->
-    <div class="contact-form">
-      <div class="contact-info">
-        <img src="img/photo.jpg" alt="lamas" />
-        <h4 class="heading-4">Address</h4>
-        <p class="text">Lorem</p>
-        <h4 class="heading-4">Phone</h4>
-        <ul>
-          <li>+7-812-812-81-28</li>
-          <li>+7-812-123-45-67</li>
-        </ul>
-        <h4 class="heading-4">Online service</h4>
-        <ul>
-          <li><a href="https://www.google.com/">Site</a></li>
-          <li><a href="hello@world.com">Email</a></li>
-        </ul>
+      <div class="top-contactUs">
+        <h2 class="heading-2">Contact Us</h2>
+        <p class="text">Lorem ipsum</p>
       </div>
-      <form action="#" class="form-action">
-        <h4 class="heading-4">Send us message</h4>
-        Full name <br />
-        <input class="input-text" type="text" placeholder="Fred Durst" /><br />
-        Email <br />
-        <input
-          class="input-text"
-          type="email"
-          placeholder="fred.durst@email.com"
-        /><br />
-        Message <br />
-        <textarea
-          class="input-text"
-          cols="30"
-          rows="5"
-          placeholder="Your Message"
-        ></textarea
-        ><br />
-        <button class="button-form" type="submit">submit</button>
-      </form>
-    </div>
-    <!-- End of part contacts info and form -->
-    <!-- Map -->
-    <script
-      type="text/javascript"
-      charset="utf-8"
-      async
-      src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A19e7bf2fe0e8500e43eb8bb957f7979a33a958e4857cc80ea02bca52f2cddd38&amp;width=644&amp;height=447&amp;lang=ru_RU&amp;scroll=true"
-    ></script>
-    <!-- Footer -->
-    <footer>
-      <div class="footer-top">
-        <div class="footer-offer">
-          <h3 class="footer-heading">Lorem, ipsum.</h3>
-          <p class="text">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed, in?
-          </p>
+      <!-- Part with contacts info and form -->
+      <div class="contact-form">
+        <!-- CONTACT INFO -->
+        <div class="contact-info">
+          <img src="img/photo.jpg" alt="lamas" />
+          <h4 class="heading-4">Address</h4>
+          <p class="text">Lorem</p>
+          <h4 class="heading-4">Phone</h4>
+          <ul>
+            <li>+7-812-812-81-28</li>
+            <li>+7-812-123-45-67</li>
+          </ul>
+          <h4 class="heading-4">Online service</h4>
+          <ul>
+            <li><a href="https://www.google.com/">Site</a></li>
+            <li><a href="hello@world.com">Email</a></li>
+          </ul>
         </div>
+        <!-- End of CONTACT INFO -->
+        <!-- the FORM -->
+        <form action="#" class="form-action">
+          <h4 class="heading-4">Send us message</h4>
+          Full name <br /><input
+            class="input-text"
+            type="text"
+            placeholder="Fred Durst"
+          /><br />Email <br /><input
+            class="input-text"
+            type="email"
+            placeholder="fred.durst@email.com"
+          /><br />Message <br /><textarea
+            class="input-text"
+            cols="30"
+            rows="5"
+            placeholder="Your Message"
+          ></textarea
+          ><br /><button class="button-form" type="submit">submit</button>
+        </form>
+        <!-- End of the FORM -->
       </div>
-      <hr />
-      <div class="footer-bottom">
-        <ul class="footer-contacts">
-          <li>Lorem ipsum dolor sit amet.</li>
-          <li>+7(812)812-81-28</li>
-          <li>email@email.com</li>
-        </ul>
-        <p class="AllRights">&copy; &nbsp; Все права защищены</p>
+      <!-- End of part contacts info and form -->
+      <!-- Map -->
+      <div class="map">
+        <script
+          type="text/javascript"
+          charset="utf-8"
+          async
+          src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A19e7bf2fe0e8500e43eb8bb957f7979a33a958e4857cc80ea02bca52f2cddd38&amp;width=100%&amp;height=447&amp;lang=ru_RU&amp;scroll=true"
+        ></script>
       </div>
-    </footer>
+      <!-- Footer -->
+      <footer>
+        <div class="footer-top">
+          <div class="footer-offer">
+            <h3 class="footer-heading">Lorem, ipsum.</h3>
+            <p class="text">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed, in?
+            </p>
+          </div>
+        </div>
+        <hr />
+        <div class="footer-bottom">
+          <ul class="footer-contacts">
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>+7(812)812-81-28</li>
+            <li>email@email.com</li>
+          </ul>
+          <p class="AllRights">&copy; &nbsp; Все права защищены</p>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
