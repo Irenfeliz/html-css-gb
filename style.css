@@ -33,7 +33,7 @@ body {
 
 .what-we-do__blocks {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .what-we-do__block {
