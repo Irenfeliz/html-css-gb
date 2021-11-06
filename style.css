@@ -245,9 +245,12 @@ hr {
     opacity: 1;
 }
 
-.footer-contacts>li {
-    width: 316px;
+.footer-contacts li {
     padding-left: 19px;
+    flex-grow: 1;
+    flex-basis: 33.33%;
+    margin-right: 32px;
+    margin-left: 19px;
 }
 
 .AllRights {
