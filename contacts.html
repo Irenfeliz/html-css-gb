@@ -8,92 +8,134 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-      <!-- Header -->
-      <nav class="header container">
-        <ul>
-          <li><a href="index.html">Главная</a></li>
-          <li><a href="contacts.html">Контакты</a></li>
+    <!-- Header -->
+    <header class="container">
+      <nav>
+        <ul class="header">
+          <li>
+            <a href="index.html"><img src="img/Logo.svg" alt="logo" /></a>
+          </li>
+          <li>
+            <a href="contacts.html"
+              ><img src="img/contacts.svg" alt="contacts"
+            /></a>
+          </li>
         </ul>
       </nav>
-      <!-- End of header -->
-      <div class="top-contactUs">
-<div class="container">
-        <h2 class="heading-2">Contact Us</h2>
-        <p class="text">Lorem ipsum</p>
+    </header>
+    <!-- End of header -->
+    <!-- Contact Us -->
+    <section class="top-contactUs">
+      <div class="contactUs container">
+        <h2 class="contactUs-heading">Contact Us</h2>
+        <p class="contactUs-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut&nbsp;labore et&nbsp;dolore magna aliqua.
+        </p>
       </div>
-    </div>
-      <!-- Part with contacts info and form -->
-      <div class="contact-form container">
-        <!-- CONTACT INFO -->
-        <div class="contact-info">
-          <img src="img/photo.jpg" alt="lamas" />
-          <h4 class="heading-4">Address</h4>
-          <p class="text">Lorem</p>
-          <h4 class="heading-4">Phone</h4>
-          <ul>
-            <li>+7-812-812-81-28</li>
-            <li>+7-812-123-45-67</li>
-          </ul>
-          <h4 class="heading-4">Online service</h4>
-          <ul>
-            <li><a href="https://www.google.com/">Site</a></li>
-            <li><a href="hello@world.com">Email</a></li>
+    </section>
+    <!-- Part with contacts info and form -->
+    <main class="contact-form container940">
+      <!-- CONTACT INFO -->
+      <section class="contact-info">
+        <img src="img/Contact-Us-form.svg" alt="contact us" />
+        <div class="contact-block contact-address">
+          <h4 class="contact-form-heading">Address</h4>
+          <p class="text">
+            Id&nbsp;convallis placerat sit sed duis id&nbsp;amet volutpat
+            quam&nbsp;a, pharetra.
+          </p>
+        </div>
+        <div class="contact-block">
+          <h4 class="contact-form-heading">Phone</h4>
+          <ul class="contact-form-list text">
+            <li>
+              <span><img src="img/contact-phone.svg" alt="phone-1" /></span
+              >+7-812-7313-4321
+            </li>
+            <li>
+              <span><img src="img/contact-phone.svg" alt="phone-2" /></span
+              >+7-817-0000-1234
+            </li>
           </ul>
         </div>
-        <!-- End of CONTACT INFO -->
-        <!-- the FORM -->
-        <form action="#" class="form-action">
-          <h4 class="heading-4">Send us message</h4>
+        <div class="contact-block">
+          <h4 class="contact-form-heading">Online service</h4>
+          <ul class="contact-form-list text">
+            <li>
+              <span><img src="img/contact-site.svg" alt="site sign" /></span>
+              <a href="https://www.site.com/">www.site.com</a>
+            </li>
+            <li>
+              <span><img src="img/contact-email.svg" alt="email sign" /></span>
+              <a href="hello.site@gmail.com">hello.site@gmail.com</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- End of CONTACT INFO -->
+      <!-- the FORM -->
+      <form action="#" class="form-action">
+        <div class="form-text text">
+          <h4 class="contact-form-heading">Send&nbsp;us message</h4>
           Full name <br /><input
             class="input-text"
             type="text"
-            placeholder="Fred Durst"
+            placeholder="Your Name"
           /><br />Email <br /><input
             class="input-text"
             type="email"
-            placeholder="fred.durst@email.com"
+            placeholder="Your Email"
           /><br />Message <br /><textarea
             class="input-text"
             cols="30"
             rows="5"
             placeholder="Your Message"
           ></textarea
-          ><br /><button class="button-form" type="submit">submit</button>
-        </form>
-        <!-- End of the FORM -->
-      </div>
-      <!-- End of part contacts info and form -->
-      <!-- Map -->
-      <div class="container">
-        <script
-          type="text/javascript"
-          charset="utf-8"
-          async
-          src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A19e7bf2fe0e8500e43eb8bb957f7979a33a958e4857cc80ea02bca52f2cddd38&amp;width=100%&amp;height=447&amp;lang=ru_RU&amp;scroll=true"
-        ></script>
-      </div>
+          ><br />
+          <button class="button-form" type="submit">submit</button>
+        </div>
+      </form>
+      <!-- End of the FORM -->
+    </main>
+    <!-- End of part contacts info and form -->
+    <!-- Map -->
+    <div class="container940">
+      <script
+        type="text/javascript"
+        charset="utf-8"
+        async
+        src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A19e7bf2fe0e8500e43eb8bb957f7979a33a958e4857cc80ea02bca52f2cddd38&amp;width=100%&amp;height=447&amp;lang=ru_RU&amp;scroll=true"
+      ></script>
+    </div>
     <!-- Footer -->
     <footer>
       <div class="container">
         <div class="footer-top">
           <div class="footer-offer">
-            <h3 class="footer-heading">Lorem, ipsum.</h3>
-            <p class="text">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed, in?
+            <h3 class="footer-heading">
+              Intersted to&nbsp;woek with our team?
+            </h3>
+            <p class="footer-text text">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut&nbsp;labore et&nbsp;dolore magna
+              aliqua. Ut enim ad&nbsp;minim veniam.
             </p>
           </div>
+          <a href="#" class="footer-button text">Let&rsquo;s Talk</a>
         </div>
-        <hr />
+      </div>
+      <hr />
+      <div class="container">
         <div class="footer-bottom">
-          <ul class="footer-contacts">
-            <li>Lorem ipsum dolor sit amet.</li>
-            <li>+7(812)812-81-28</li>
-            <li>email@email.com</li>
-          </ul>
-          <p class="AllRights">&copy; &nbsp; Все права защищены</p>
+          <ol class="footer-contacts text">
+            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+            <li>+7-812-7313-4321</li>
+            <li>hello.site@gmail.com</li>
+          </ol>
+          <p class="AllRights text">&copy;&nbsp;2021 All rights reserved.</p>
         </div>
       </div>
     </footer>
-    </div>
   </body>
 </html>
