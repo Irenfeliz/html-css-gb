@@ -406,7 +406,6 @@ textarea {
     border-width: 0;
 }
 
-
 .form-text {
     line-height: 30px;
     letter-spacing: 0.04em;
@@ -433,7 +432,7 @@ textarea {
 }
 
 /*laptop*/
-@media screen and (max-width: 1024px) and (min-width: 666px) {
+@media (max-width: 1024px) and (min-width: 666px) {
     .container {
         padding-left: 32px;
         padding-right: 32px;
@@ -493,7 +492,7 @@ textarea {
 }
 
 /*mobile*/
-@media screen and (max-width: 667px) {
+@media (max-width: 667px) {
     .header {
         padding-top: 24px;
     }
